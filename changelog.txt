@@ -6,3 +6,7 @@ All notable changes to this project will be documented in this file.
 - Express and mongoose support.
 - Database connection.
 - Environment variables.
+- Auth controllers.
+- Auth routes.
+- User model.
+- Auth middleware.
