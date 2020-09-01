@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2020-09-01
+### Added
+- Base React App.
+
 ## [0.1.0] - 2020-08-31
 ### Added
 - Express and mongoose support.
