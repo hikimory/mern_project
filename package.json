@@ -4,12 +4,17 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "server": "nodemon backend/app.js"
+    "server": "nodemon backend/app.js",
+    "client": "npm run start --prefix frontend",
+    "client:install": "npm install --prefix frontend",
+    "client:build": "npm run build --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Nick Bykon <nikita.bikon@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
